@@ -1,0 +1,19 @@
+{
+  "name": "darell/belajar-php-composer",
+  "description": "Belajar library composer",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Darell\\BelajarPhpComposer\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Darell Rangga",
+      "email": "darrelrangga@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  }
+}
